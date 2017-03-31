@@ -99,4 +99,6 @@ public class MailParserTest {
         mailParser.parseReply(mail);
         assertEquals("Ok", mailParser.getReply());
     }
+
+
 }
